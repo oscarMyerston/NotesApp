@@ -12,6 +12,11 @@
 		4898398929A702FD004FAADF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4898398829A702FD004FAADF /* ContentView.swift */; };
 		4898398B29A702FF004FAADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4898398A29A702FF004FAADF /* Assets.xcassets */; };
 		4898398E29A702FF004FAADF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4898398D29A702FF004FAADF /* Preview Assets.xcassets */; };
+		4898399929A706DB004FAADF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4898399829A706DB004FAADF /* Note.swift */; };
+		4898399B29A7084D004FAADF /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4898399A29A7084D004FAADF /* AddNote.swift */; };
+		4898399D29A9A543004FAADF /* ListNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4898399C29A9A542004FAADF /* ListNote.swift */; };
+		4898399F29A9AEC9004FAADF /* DetailNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4898399E29A9AEC9004FAADF /* DetailNote.swift */; };
+		489839A129A9BB97004FAADF /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489839A029A9BB97004FAADF /* Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		4898398829A702FD004FAADF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4898398A29A702FF004FAADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4898398D29A702FF004FAADF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4898399829A706DB004FAADF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		4898399A29A7084D004FAADF /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
+		4898399C29A9A542004FAADF /* ListNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNote.swift; sourceTree = "<group>"; };
+		4898399E29A9AEC9004FAADF /* DetailNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNote.swift; sourceTree = "<group>"; };
+		489839A029A9BB97004FAADF /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,11 @@
 			children = (
 				4898398629A702FD004FAADF /* NotesAppApp.swift */,
 				4898398829A702FD004FAADF /* ContentView.swift */,
+				4898399A29A7084D004FAADF /* AddNote.swift */,
+				4898399E29A9AEC9004FAADF /* DetailNote.swift */,
+				4898399C29A9A542004FAADF /* ListNote.swift */,
+				4898399829A706DB004FAADF /* Note.swift */,
+				489839A029A9BB97004FAADF /* Tools.swift */,
 				4898398A29A702FF004FAADF /* Assets.xcassets */,
 				4898398C29A702FF004FAADF /* Preview Content */,
 			);
@@ -194,6 +209,11 @@
 			files = (
 				4898398929A702FD004FAADF /* ContentView.swift in Sources */,
 				4898398729A702FD004FAADF /* NotesAppApp.swift in Sources */,
+				4898399F29A9AEC9004FAADF /* DetailNote.swift in Sources */,
+				4898399929A706DB004FAADF /* Note.swift in Sources */,
+				489839A129A9BB97004FAADF /* Tools.swift in Sources */,
+				4898399B29A7084D004FAADF /* AddNote.swift in Sources */,
+				4898399D29A9A543004FAADF /* ListNote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
